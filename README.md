@@ -4,9 +4,9 @@
 
 ## Preliminary note
 
-This project is based on the sample application that DockProgress includes on its official website. It allows you to see the different animations (styles) in action. To use DockProgress by adding it to your Xcode project via the Swift Package Manager, visit its repository.
+This site is based on the sample application included in the DockProgress project. It allows you to see the different animations (styles) in action. To use this excellent swift package by adding it to Xcode, visit the [DockProgress repository](https://github.com/sindresorhus/DockProgress).
 
-<img src="Screenshot.png" width=“500px”>
+![Main window](Images/Screenshot.png)
 
 ## Requirements
 

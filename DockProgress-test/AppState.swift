@@ -1,5 +1,6 @@
 import DockProgress
 import SwiftUI
+internal import Combine
 
 // MARK: - Constants
 
