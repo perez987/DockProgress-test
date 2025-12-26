@@ -6,7 +6,9 @@
 
 This site is based on the sample application included in the DockProgress project. It allows you to see the different animations (styles) in action. To use this excellent swift package by adding it to Xcode, visit the [DockProgress repository](https://github.com/sindresorhus/DockProgress).
 
-![Main window](Images/Screenshot.png)
+<img src="Images/Screenshot.png" width="740px">
+
+---
 
 ## Requirements
 
