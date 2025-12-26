@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D98D63462EFF15F8005A550B /* DockProgress in Frameworks */ = {isa = PBXBuildFile; productRef = D98D63452EFF15F8005A550B /* DockProgress */; };
+		D9CC54F02EFF1D5C0079246A /* DockProgress in Frameworks */ = {isa = PBXBuildFile; productRef = D9CC54EF2EFF1D5C0079246A /* DockProgress */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98D63462EFF15F8005A550B /* DockProgress in Frameworks */,
+				D9CC54F02EFF1D5C0079246A /* DockProgress in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			);
 			name = "DockProgress-test";
 			packageProductDependencies = (
-				D98D63452EFF15F8005A550B /* DockProgress */,
+				D9CC54EF2EFF1D5C0079246A /* DockProgress */,
 			);
 			productName = "DockProgress-test";
 			productReference = D945AAD42EFF157B007A4C02 /* DockProgress-test.app */;
@@ -101,7 +101,7 @@
 			mainGroup = D945AACB2EFF157B007A4C02;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D98D63442EFF15F8005A550B /* XCRemoteSwiftPackageReference "DockProgress" */,
+				D9CC54EE2EFF1D5C0079246A /* XCRemoteSwiftPackageReference "DockProgress" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D945AAD52EFF157B007A4C02 /* Products */;
@@ -349,20 +349,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D98D63442EFF15F8005A550B /* XCRemoteSwiftPackageReference "DockProgress" */ = {
+		D9CC54EE2EFF1D5C0079246A /* XCRemoteSwiftPackageReference "DockProgress" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sindresorhus/DockProgress";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.2;
+				kind = exactVersion;
+				version = 4.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D98D63452EFF15F8005A550B /* DockProgress */ = {
+		D9CC54EF2EFF1D5C0079246A /* DockProgress */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D98D63442EFF15F8005A550B /* XCRemoteSwiftPackageReference "DockProgress" */;
+			package = D9CC54EE2EFF1D5C0079246A /* XCRemoteSwiftPackageReference "DockProgress" */;
 			productName = DockProgress;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -6,7 +6,7 @@ internal import Combine
 
 private enum Constants {
     static let windowWidth: CGFloat = 450
-    static let windowHeight: CGFloat = 470
+    static let windowHeight: CGFloat = 420
 }
 
 @MainActor
@@ -21,9 +21,6 @@ final class AppState: ObservableObject {
         .circle(radius: 30, color: .purple),
         .badge(color: .blue) { Int(DockProgress.displayedProgress * 12) },
         .pie(color: .blue),
-        .customView { progress in
-            CustomView(progress: progress)
-        },
     ]
 
     let styleNames = [
@@ -32,7 +29,6 @@ final class AppState: ObservableObject {
         "Circle Style",
         "Badge Style",
         "Pie Style",
-        "Custom View Style",
     ]
 
     func startStyle(at index: Int) {
@@ -164,40 +160,5 @@ struct ContentView: View {
         }
         .padding()
         .frame(width: Constants.windowWidth, height: Constants.windowHeight)
-    }
-}
-
-private struct CustomView: View {
-    let progress: Double
-
-    var body: some View {
-        ZStack {
-            Circle()
-                .stroke(
-                    LinearGradient(
-                        colors: [.blue, .purple],
-                        startPoint: .top,
-                        endPoint: .bottom
-                    ),
-                    lineWidth: 8
-                )
-                .opacity(0.3)
-                .frame(width: 80, height: 80)
-            Circle()
-                .trim(from: 0, to: progress)
-                .stroke(
-                    LinearGradient(
-                        colors: [.blue, .purple],
-                        startPoint: .top,
-                        endPoint: .bottom
-                    ),
-                    style: StrokeStyle(lineWidth: 8, lineCap: .round)
-                )
-                .rotationEffect(.degrees(-90))
-                .frame(width: 80, height: 80)
-            Text("\(Int(progress * 100))%")
-                .font(.system(size: 20, weight: .bold).monospacedDigit())
-                .foregroundColor(.white)
-        }
     }
 }
