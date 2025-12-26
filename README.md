@@ -6,7 +6,7 @@
 
 This project is based on the sample app that DockProgress includes in the original site. It's a way to see the different animations (styles) in action. To use DockProgress by adding it to your Xcode project via Swift Package Manager, visit its repository.
 
-![Main window](Screenshot.png)
+<img src="Screenshot.png" width=“500px”>
 
 ## Requirements
 
