@@ -6,12 +6,19 @@ struct AppMain: App {
     private let appState = AppState()
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .navigationTitle("")
-                .environmentObject(appState)
+        if #available(macOS 13.0, *) {
+            WindowGroup {
+                ContentView()
+                    .navigationTitle("")
+                    .environmentObject(appState)
+            }
+            .windowResizability(.contentSize)
+        } else {
+            WindowGroup {
+                ContentView()
+                    .navigationTitle("")
+                    .environmentObject(appState)
+            }
         }
-        // macOS 13.0 or newer
-//        .windowResizability(.contentSize)
     }
 }
