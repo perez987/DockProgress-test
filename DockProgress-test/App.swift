@@ -11,6 +11,7 @@ struct AppMain: App {
                 .navigationTitle("")
                 .environmentObject(appState)
         }
-        .windowResizability(.contentSize)
+        // macOS 13.0 or newer
+//        .windowResizability(.contentSize)
     }
 }
