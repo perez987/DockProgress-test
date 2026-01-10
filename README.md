@@ -12,7 +12,7 @@ This site is based on the sample application included in the DockProgress projec
 
 ## Requirements
 
-- macOS 12+
+- macOS 13+
 - Xcode 16+
 
 ## Install
