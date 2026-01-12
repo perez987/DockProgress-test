@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95D60372F15368700AAED05 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95D60322F15368700AAED05 /* App.swift */; };
+		D95D60382F15368700AAED05 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95D60332F15368700AAED05 /* AppState.swift */; };
+		D95D60392F15368700AAED05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95D60342F15368700AAED05 /* Assets.xcassets */; };
 		D98D63462EFF15F8005A550B /* DockProgress in Frameworks */ = {isa = PBXBuildFile; productRef = D98D63452EFF15F8005A550B /* DockProgress */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D945AAD42EFF157B007A4C02 /* DockProgress-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DockProgress-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95D60322F15368700AAED05 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		D95D60332F15368700AAED05 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		D95D60342F15368700AAED05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95D60352F15368700AAED05 /* DockProgress-test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DockProgress-test.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D945AAD62EFF157B007A4C02 /* DockProgress-test */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "DockProgress-test";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D945AAD12EFF157B007A4C02 /* Frameworks */ = {
@@ -37,7 +36,7 @@
 		D945AACB2EFF157B007A4C02 = {
 			isa = PBXGroup;
 			children = (
-				D945AAD62EFF157B007A4C02 /* DockProgress-test */,
+				D95D60362F15368700AAED05 /* DockProgress-test */,
 				D945AAD52EFF157B007A4C02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +47,17 @@
 				D945AAD42EFF157B007A4C02 /* DockProgress-test.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D95D60362F15368700AAED05 /* DockProgress-test */ = {
+			isa = PBXGroup;
+			children = (
+				D95D60322F15368700AAED05 /* App.swift */,
+				D95D60332F15368700AAED05 /* AppState.swift */,
+				D95D60342F15368700AAED05 /* Assets.xcassets */,
+				D95D60352F15368700AAED05 /* DockProgress-test.entitlements */,
+			);
+			path = "DockProgress-test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,9 +74,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D945AAD62EFF157B007A4C02 /* DockProgress-test */,
 			);
 			name = "DockProgress-test";
 			packageProductDependencies = (
@@ -118,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95D60392F15368700AAED05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D95D60372F15368700AAED05 /* App.swift in Sources */,
+				D95D60382F15368700AAED05 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
