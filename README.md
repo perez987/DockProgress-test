@@ -67,7 +67,7 @@ Create custom progress indicators with:
 
 ### Bar
 
-![](screenshot-bar.gif)
+![](Images/screenshot-bar.gif)
 
 ```swift
 import DockProgress
@@ -79,7 +79,7 @@ This is the default.
 
 ### Squircle
 
-<img src="screenshot-squircle.gif" width="158" height="158">
+![](Images/screenshot-squircle.gif)
 
 ```swift
 import DockProgress
@@ -91,7 +91,7 @@ Fits perfectly around macOS app icons by default. Use the `inset` parameter for 
 
 ### Circle
 
-![](screenshot-circle.gif)
+![](Images/screenshot-circle.gif)
 
 ```swift
 import DockProgress
@@ -101,7 +101,7 @@ DockProgress.style = .circle(radius: 55, color: .blue)
 
 ### Badge
 
-![](screenshot-badge.gif)
+![](Images/screenshot-badge.gif)
 
 ```swift
 import DockProgress
@@ -115,7 +115,7 @@ Large numbers are shortened: `1012` → `1k`, `10000` → `9k+`.
 
 ### Pie
 
-<img src="screenshot-pie.gif" width="150" height="150">
+![](Images/screenshot-pie.gif)
 
 ```swift
 import DockProgress
