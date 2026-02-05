@@ -7,3 +7,8 @@
 "ok" = "OK";
 "language_changed_title" = "Lingua modificata";
 "language_changed_message" = "Riavvia l'applicazione\nper applicare la nuova lingua.";
+
+"dockprogress_styles" = "Stili DockProgress";
+"start_animation" = "Fai clic su un pulsante per avviare l'animazione:";
+"cycle_styles" = "Cicla automaticamente tutti gli stili";
+"stop" = "Ferma";

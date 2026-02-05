@@ -7,3 +7,8 @@
 "ok" = "OK";
 "language_changed_title" = "Sprache geändert";
 "language_changed_message" = "Bitte starten Sie die Anwendung neu,\num die neue Sprache anzuwenden.";
+
+"dockprogress_styles" = "DockProgress-Stile";
+"start_animation" = "Klicken Sie auf eine Schaltfläche, um die Animation zu starten:";
+"cycle_styles" = "Alle Stile automatisch durchlaufen";
+"stop" = "Stopp";
