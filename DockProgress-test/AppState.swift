@@ -124,13 +124,13 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("DockProgress Styles")
+            Text(NSLocalizedString("dockprogress_styles", comment: "DockProgress Styles"))
                 .font(.title)
                 .padding(.top, 20)
 
             Divider()
 
-            Text("Click a button to start the animation:")
+            Text(NSLocalizedString("start_animation", comment: "Click a button to start the animation:"))
                 .font(.headline)
 
             VStack(spacing: 15) {
@@ -145,14 +145,14 @@ struct ContentView: View {
 
             Divider()
 
-            Button("Auto-Cycle All Styles") {
+            Button(NSLocalizedString("cycle_styles", comment: "Auto-Cycle All Styles")) {
                 borrowIconFromApp("com.apple.Photos")
                 appState.startAutoCycle()
             }
             .buttonStyle(.bordered)
             .controlSize(.large)
 
-            Button("Stop") {
+            Button(NSLocalizedString("stop", comment: "Stop")) {
                 appState.stop()
             }
             .buttonStyle(.borderedProminent)

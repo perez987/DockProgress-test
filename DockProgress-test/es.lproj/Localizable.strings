@@ -1,0 +1,14 @@
+/* Language Menu */
+"menu_language" = "Idioma";
+"menu_select_language" = "Seleccionar idioma...";
+"language_selector_title" = "Seleccionar idioma";
+"accept" = "Aceptar";
+"cancel" = "Cancelar";
+"ok" = "OK";
+"language_changed_title" = "Idioma cambiado";
+"language_changed_message" = "Reinicia la aplicación\npara aplicar el nuevo idioma.";
+
+"dockprogress_styles" = "Estilos de DockProgress";
+"start_animation" = "Presiona un botón para ver la animación:";
+"cycle_styles" = "Recorrer todos los estilos";
+"stop" = "Parar";
