@@ -5,7 +5,7 @@ internal import Combine
 // MARK: - Constants
 
 private enum Constants {
-    static let windowWidth: CGFloat = 450
+    static let windowWidth: CGFloat = 470
     static let windowHeight: CGFloat = 470
 }
 

@@ -66,7 +66,7 @@ struct LanguageSelectorView: View {
                 .tag(language.code)
                 .padding(.vertical, 4)
             }
-            .frame(width: 222, height: 208)
+            .frame(width: 242, height: 208)
             .border(Color.gray.opacity(0.3), width: 1)
 
             HStack(spacing: 12) {
