@@ -21,8 +21,6 @@ This site is based on the sample application included in the DockProgress projec
 
 Add `https://github.com/sindresorhus/DockProgress` in the [“Swift Package Manager” tab in Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
 
-*Latest version: 5.0.2*
-
 ## API
 
 [See the API docs.](https://swiftpackageindex.com/sindresorhus/DockProgress/documentation/dockprogress/dockprogress)
