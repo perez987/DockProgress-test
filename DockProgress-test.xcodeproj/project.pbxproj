@@ -318,8 +318,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.2;
-				ONLY_ACTIVE_ARCH = YES;
+				MARKETING_VERSION = 1.2.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "perez987.DockProgress-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -353,8 +353,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.2;
-				ONLY_ACTIVE_ARCH = YES;
+				MARKETING_VERSION = 1.2.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "perez987.DockProgress-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
