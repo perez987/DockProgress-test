@@ -8,8 +8,6 @@ This site is based on the sample application included in the DockProgress projec
 
 ![title](Images/Window.png)
 
-![title](Images/Languages.png)
-
 ---
 
 ## Requirements
