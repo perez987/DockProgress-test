@@ -1,0 +1,14 @@
+/* Language Menu */
+"menu_language" = "Language";
+"menu_select_language" = "Select Language...";
+"language_selector_title" = "Select Language";
+"accept" = "Accept";
+"cancel" = "Cancel";
+"ok" = "OK";
+"language_changed_title" = "Language Changed";
+"language_changed_message" = "Please restart the application\nto apply the new language.";
+
+"dockprogress_styles" = "DockProgress Styles";
+"start_animation" = "Click a button to start the animation:";
+"cycle_styles" = "Auto-Cycle All Styles";
+"stop" = "Stop";
