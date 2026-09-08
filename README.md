@@ -4,7 +4,7 @@
 
 ## Preliminary note
 
-This site is based on the sample application included in the DockProgress project. It allows you to see the different animations (styles) in action. To use this excellent swift package by adding it to Xcode, visit the [DockProgress repository](https://github.com/sindresorhus/DockProgress).
+This site is based on the sample application included in the DockProgress project. It allows you to see the different animations (styles) in action. To use this excellent swift package by adding it to Xcode, visit the [DockProgress](https://github.com/sindresorhus/DockProgress) repository.
 
 ![title](Images/Window.png)
 
@@ -17,7 +17,7 @@ This site is based on the sample application included in the DockProgress projec
 
 ## Install
 
-Add `https://github.com/sindresorhus/DockProgress` in the [“Swift Package Manager” tab in Xcode](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app).
+Add `https://github.com/sindresorhus/DockProgress` in the “Swift Package Manager” tab in Xcode
 
 ## API
 
